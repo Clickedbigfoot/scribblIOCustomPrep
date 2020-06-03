@@ -1,11 +1,11 @@
 #!/usr/bin/python
 
 """
-Prevents duplicates and bad formatting in scribbl io custom words paragraphs
+Prevents duplicates and bad formatting in skribbl io custom words paragraphs
 """
 
-INPUT_FILE = "scribblIO.txt" #File to read the custom words from
-OUTPUT_FILE = "scribblIO_unique.txt" #File to print the custom words list without duplicates
+INPUT_FILE = "skribblIO.txt" #File to read the custom words from
+OUTPUT_FILE = "skribblIO_unique.txt" #File to print the custom words list without duplicates
 
 inputData = open(INPUT_FILE, "r")
 words = [] #List of words
