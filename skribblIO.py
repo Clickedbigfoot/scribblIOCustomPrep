@@ -52,7 +52,7 @@ for line in inputData.readlines():
 		words.append(cur)
 		cur = ""
 inputData.close()
-output = open("OUTPUT_FILE", "w+")
+output = open(OUTPUT_FILE, "w+")
 for word in words[:len(words) - 1]:
 	#Iterate through every word in scribble io list
 	output.write(word + ",")
